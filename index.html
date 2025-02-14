@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IndraKumar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="shortcut icon" href="https://www.shutterstock.com/shutterstock/photos/2184759981/display_1500/stock-vector-ik-logo-creative-minimal-and-elegant-logo-design-2184759981.jpg" type="image/x-icon">
+</head>
+<body>
+    <div class="header"> 
+        <div class="container">
+            <nav>
+            <img src="images/logo.png">
+            <ul id="sidemenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Welcome, <br> I'm <span>Indra Kumar</h1>
+            </div>
+        </div>
+        
+    </div>
+                <!-- About Section -->
+        <div id="about">
+            <div class="container">
+                 <div class="row">
+                    <div class="about-col-1"> 
+                        <img src="images/safar-safarov-koOdUvfGr4c-unsplash.jpg" alt="">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-tittle">About me</h1>
+                        <p>Hi, I’m Indra Kumar from Hyderabad, currently pursuing a BTech at Geethanjali College of Engineering and Technology. I’m passionate about technology and have developed skills in JavaScript, with a keen interest in web development and coding.</p>
+                        <div class="tab-tittles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            
+                        </div>
+                        <div class="tab-contents  active-tab" id="skills">
+                            <ul>
+                                <li><span>Frontend</span> <br> Builds user interfaces for websites and applications to enhance user experience</li>
+                                <li><span>Java</span><br>Build Applications on Core Java</li>
+                                <li><span>Sql</span><br>Managing and manipulating relational databases.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span>Rock Paper Scissor</span> <br> This project explores the game Rock, Paper, Scissors as a model for understanding decision-making and random choice in a competitive environment</li>
+                                <li><span>Portfolio</span><br>This portfolio presents a comprehensive collection of my work in , showcasing my skills, projects, and Education life. </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2025</span><br>BTech in Information Technology,Geethanjali college of Engineering and Technology</li>
+                                <li><span>2021</span><br>Diploma in EEE, KBR Engineering College</li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                 </div>
+            </div>
+        </div>
+
+        <!-- Services -->
+
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-tittle">My Services</h1>
+                <div class="services-list">
+                        <div class="list">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>UI/UX Design</h3>
+                            <p>UI/UX developer is responsible for ensuring that digital products, such as websites and mobile applications, are user-friendly and visually appealing.</p>
+                            <a href="https://www.simplilearn.com/tutorials/ui-ux-career-resources/ui-ux-designer-job-description" target="_blank">Learn more</a>
+                        </div>
+                        <div class="list">
+                            <i class="fa-solid fa-crop"></i>
+                            <h3>Web Design</h3>
+                            <p>web developer is a technical professional responsible for designing and building websites and web applications. They utilize their knowledge of programming languages and development tools to create websites.</p>
+                            <a href="https://www.spiceworks.com/tech/it-careers-skills/articles/web-developer/" target="_blank">Learn more</a>
+                        </div>
+                        <div class="list">
+                            <i class="fa-solid fa-clone"></i>
+                            <h3>DSA</h3>
+                            <p>DSA (Data Structures and Algorithms) is essential in computer science for organizing data effectively using structures such as arrays, stacks, and trees.</p>
+                            <a href="https://www.springboard.com/blog/software-engineering/data-structures-and-algorithms/" target="_blank">Learn more</a>
+                        </div>
+                        
+                </div>
+            </div>
+        </div> 
+         <!-- Portfoli -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-tittle">My Works</h1>
+            </div>
+            <div class="worklist">
+                <div class="work">
+                    <img src="images/i-m-zion-qrwuPLxHL94-unsplash.jpg">
+                    <div class="layer">
+                        <h3>Rock Paper Scissor</h3>
+                        <p>A game of chance and strategy where hand gestures mimic rock, paper, and scissors in a cyclical battle of dominance.</p>
+                        <a href="https://rockpaperscissormik.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/ben-kolde-bs2Ba7t69mM-unsplash.jpg"> 
+                    <div class="layer">
+                        <h3>Portfolio</h3>
+                        <p>A curated collection of my work showcasing my skills and projects in IT.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/pranjall-kumar-sejqj6Eaqe8-unsplash.jpg">
+                    <div class="layer">
+                        <h3>Food Zone</h3>
+                        <p>A food delivery website connects customers with local restaurants, enabling online ordering and convenient delivery to their doorstep.</p>
+                        <a href="https://animated-biscuit-0af338.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square" ></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+         
+        <!-- CONTACT -->
+
+        <div id="contact">
+            <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact</h1>
+                    <p><a href=""><i class="fa-solid fa-paper-plane"></i></a>indraice3@gmail.com</p>
+                     <p><a href=""><i class="fa-solid fa-phone"></i></a>+91 99631 79662</p>
+                    <div class="social-media">
+                        <a href="https://github.com/Indra09963" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/indra-kumar-207708276/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/indra_kumarrr/"target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/alluarjun.indra/"target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="Indra-kumar-resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Mail" placeholder="Mail id" required >
+                        <textarea name="Message" rows="5" placeholder="Leave a Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <p id="end">Thanks for Visiting <i class="fa-solid fa-heart"></i></p>
+ 
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyb8S_oYovoPaxtmKMusyvqaxmDBeklzOb7uhbcHV2n497C5zJB-48rTRIFji-pudbBAw/exec';
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+        </script>
+        <script src="script.js"></script>
+    </body>
+</html>
